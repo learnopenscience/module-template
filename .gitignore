@@ -1,2 +1,5 @@
 
 .DS_Store
+
+#Ignore notebook checkpoints 
+.ipynb_checkpoints
