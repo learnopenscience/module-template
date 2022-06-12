@@ -4,6 +4,8 @@
 format: jb-book
 root: intro
 chapters:
+- file: learningobjectives
 - file: lesson1
 - file: lesson2
+- file: references
 
