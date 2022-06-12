@@ -24,8 +24,9 @@ Other directives can produce styled boxes for: *Warning*, *Caution*, *See also*,
 
 Roles are like in-line commands, for example to introduce citations (see below) or internal links to other parts of the lessons. If you know LaTeX, you can think of directives as environments and roles as macros.
 
-More about MyST in the JupyterBook documentation: [MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
-
+:::{seealso}
+Learn more about MyST by exploring the JupyterBook documentation: [MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
+:::
 
 
 ## Citations

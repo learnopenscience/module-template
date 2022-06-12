@@ -362,8 +362,8 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="lesson-2-using-jupyter-notebooks">
 <h1>Lesson 2: using Jupyter notebooks<a class="headerlink" href="#lesson-2-using-jupyter-notebooks" title="Permalink to this headline">#</a></h1>
 <p>You can add content to the module using Jupyter notebooks, if you wish. This allows you to display code cells with their output, or take advantage of the rich display options that Jupyter provides.</p>
-<p>In this demo, we import <code class="docutils literal notranslate"><span class="pre">pandas</span></code>, and we load a dataset of preprint usage per month, from <span id="id1">Polka and Penfold [<a class="reference internal" href="references.html#id2" title="Jessica K. Polka and Naomi C. Penfold. Biomedical preprints per month, by source and as a fraction of total literature. Zenodo data set, July 2020. doi:10.5281/zenodo.3955154.">PP20</a>]</span>.</p>
 <p>Suppose you want to talk about the increase in use of preprints as a form of rapid communication and Green Open Access publication. You want to show a graph, and transparently show how the graph is produced from an open data set.</p>
+<p>In this demo, we import <code class="docutils literal notranslate"><span class="pre">pandas</span></code>, and we load a dataset of preprint usage per month, from <span id="id1">Polka and Penfold [<a class="reference internal" href="references.html#id2" title="Jessica K. Polka and Naomi C. Penfold. Biomedical preprints per month, by source and as a fraction of total literature. Zenodo data set, July 2020. doi:10.5281/zenodo.3955154.">PP20</a>]</span>, then we keep only some relevant columns and change the column labels so they are shorter when displayed in the legend.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -424,7 +424,8 @@ title="Print to PDF"
 </div>
 </div>
 </div>
-<p>We will plot the data from the first few columns, and rename the columns with a shorter label, for display in the plot legend, and finally display a staked filled-line plot with the [<code class="docutils literal notranslate"><span class="pre">.plot.area()</span></code>] (<a class="reference external" href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.area.html">https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.area.html</a>) method for dataframes.</p>
+<p>Notice that we set the cell above to hide the output, which is a bit long. You can hide input or output of code cells at will to make the displayed content more readable. We won’t go into details here, but let the team know if you’d like help with this.</p>
+<p>We will plot the data from the first few columns, and rename the columns with a shorter label, for display in the plot legend, and finally display a stacked filled-line plot with the [<code class="docutils literal notranslate"><span class="pre">.plot.area()</span></code>] (<a class="reference external" href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.area.html">https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.area.html</a>) method for dataframes.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">preprint_data</span> <span class="o">=</span> <span class="n">preprint_data</span><span class="o">.</span><span class="n">filter</span><span class="p">([</span><span class="s1">&#39;Source&#39;</span><span class="p">,</span>
@@ -464,6 +465,7 @@ title="Print to PDF"
 </div>
 </div>
 <p>And that is one interesting plot showing an explosion in preprint use in the last few years!</p>
+<p>This is an example where making the content executable using Jupyter notebooks could be useful and impactful. The TOPS Curriculum team will be glad to support content leads in this.</p>
 </section>
 
     <script type="text/x-thebe-config">
