@@ -11,6 +11,7 @@ chapters:
 - file: learningobjectives
 - file: lesson1
 - file: lesson2
+- file: lesson3
 - file: references
 ```
 You can add more files in the list, as needed.
