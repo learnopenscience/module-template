@@ -34,7 +34,7 @@ Learn more about MyST by exploring the JupyterBook documentation: [MyST Markdown
 You can cite references from a `bibtex` file using `{cite}` roles. Several in-line citation styles are possible.
 See the variations in the JupyterBook documentation: [Change the in-line citation style](https://jupyterbook.org/en/stable/content/citations.html#change-the-in-line-citation-style).
 
-To insert a bibliography into your page, you will use the `{bibliography}` directive. For example, if the references for your book are stored in `references.bib`, you indicate this file name in the `_config.yml` and
+To insert a bibliography into your page, you will use the `{bibliography}` directive. For example, if the references for your module are stored in `references.bib`, you indicate this file name in the `_config.yml` and
 then insert the bibliography with:
 
 ````
