@@ -34,3 +34,7 @@ html:
   
 exclude_patterns:
   - README.md
+  
+sphinx:
+  config:
+    bibtex_reference_style: author_year
