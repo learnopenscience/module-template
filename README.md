@@ -1,7 +1,7 @@
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by] 
 # Template for TOPS modules
 
-This template repository provides a base folder structure, and some guidance to help us achieve some consistency across the different modules of the TOPS OpenCore curriculum.
+This template repository provides a base folder structure, and sample files containing some guidance to help us achieve consistency across the different modules of the TOPS OpenCore curriculum.
 
 The OpenCore is part of the TOPS mission Area 2: Capacity Sharing. In the first phase, the project is deploying a scalable learning platform, and five learning modules:
 
@@ -11,20 +11,27 @@ The OpenCore is part of the TOPS mission Area 2: Capacity Sharing. In the first 
 4. Open Software
 5. Open Results
 
-Course curriculum leads will get a link to make a new repository under the GitHub organization [learnopenscience](http://github.com/learnopenscience), with admin permissions granted automatically. 
+Course curriculum leads will get a link to make a new repository under the GitHub organization [learnopenscience](http://github.com/learnopenscience) with the contents of this template reproduced, and admin permissions granted automatically. 
 
 Next actions:
 
-- change the repository name to the module identifier
-- add contributors (subject matter experts) as collaborators
-- make a dev branch
+- change the repository name to the module identifier as follows: 
+  - TOPS-OC1-ethos
+  - TOPS-OC2-tools
+  - TOPS-OC3-data
+  - TOPS-OC4-code
+  - TOPS-OC5-results
 
-Begin developing the content using the folder structure inherited from the template.
+- add contributors (subject matter experts) as collaborators
+- begin replacing the sample content in with your own
+
+You can create more files to add more sections to the module. Use one file per section, beginning with a top heading (using `#`), and add sub-headings (with `##` and `###`) as needed. These will be used automatically to build the table of contents.
 
 ---
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
+Prepared by Lorena A. Barba (2022) for the AGU TOPS project.
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
