@@ -23,7 +23,7 @@ Next actions:
   - TOPS-OC5-results
 
 - add contributors (subject matter experts) as collaborators
-- begin replacing the sample content in with your own
+- begin replacing the sample content in the lesson files with your own material
 
 You can create more files to add more sections to the module. Use one file per section, beginning with a top heading (using `#`), and add sub-headings (with `##` and `###`) as needed. These will be used automatically to build the table of contents.
 
