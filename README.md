@@ -17,10 +17,10 @@ Next actions:
 
 - change the repository name to the module identifier as follows: 
   - TOPS-OC1-ethos
-  - TOPS-OC2-tools
-  - TOPS-OC3-data
-  - TOPS-OC4-code
-  - TOPS-OC5-results
+  - TOPS-OC2-data
+  - TOPS-OC3-code
+  - TOPS-OC4-results
+  - TOPS-OC5-tools
 
 - add contributors (subject matter experts) as collaborators
 - begin replacing the sample content in the lesson files with your own material
